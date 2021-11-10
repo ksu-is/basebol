@@ -11,6 +11,8 @@ from pybaseball import statcast
 from pybaseball import playerid_lookup
 from pybaseball import statcast_pitcher
 
+input("enter the name of a braves player to see their stats:")
+
 def name_formatter(full_name):
     result = full_name.split(' ')
     return result[1]+', ' + result[0]
