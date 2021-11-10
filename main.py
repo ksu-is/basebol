@@ -44,7 +44,7 @@ Index(['name_last', 'name_first', 'key_mlbam', 'key_retro', 'key_bbref',
       dtype='object')
 pitch_type   game_date release_speed release_pos_x release_pos_z   
 '''
-fried_stats = statcast_pitcher('2017-06-01', '2017-07-01', 477132)
+fried_stats = statcast_pitcher('2019-06-01', '2020-07-01', 608331)
 fried_stats.head(2)
 print(fried_stats.head(2))
 
